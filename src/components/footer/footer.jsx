@@ -20,7 +20,7 @@ const Footer = () => {
                         <br/>
 
                         
-                        <button className="button"> <a href="https://ghsharma.github.io/My-portfolio.github.io-/">BY:   GHS with <BsFillHeartFill size={10} /></a></button>
+                        <button className="button"> <a href="https://cn-portfolio-seven.vercel.app/">BY: Nishant with <BsFillHeartFill size={10} /></a></button>
                     </span>
                 </div>
 
