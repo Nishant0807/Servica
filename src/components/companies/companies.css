@@ -1,0 +1,9 @@
+.comp-container{
+    background-color: rgb(46, 37, 37);
+    justify-content: space-around;
+    gap:2rem;
+}
+
+.comp-container>img{
+    width:10rem;
+}

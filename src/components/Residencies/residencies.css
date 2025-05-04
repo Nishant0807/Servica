@@ -1,0 +1,113 @@
+.r-container{
+    background:var(--black);
+    overflow: hidden;
+    position: relative;
+}
+
+.r-head{
+
+    margin-bottom: 2rem;
+}
+
+.mainhead{
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.r-card{
+    gap:0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin:auto;
+    transition: all 300ms ease-in;
+    overflow: hidden;
+    background:rgb(22, 22, 22) ;
+}
+
+.r-card .primaryText{  
+    color: rgb(255, 255, 255);
+}
+
+.r-card>img{
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.r-card>:nth-child(2){
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.r-card>:nth-child(3){
+    font-size: 1.2rem;
+}
+
+.r-card>:nth-child(4){
+    font-size:1rem;
+    width: 15rem;
+}
+
+.r-card:hover{
+    scale:1.025;
+    cursor: pointer;
+    background: linear-gradient(
+        360deg,
+        rgba(236, 233, 233, 0)0%,
+        rgba(255, 255, 255, 0.46)217.91%
+    ) ;
+}
+
+.swiper-horizontal{
+    overflow:visible;
+}
+
+.r-buttons{
+    position:absolute;
+    gap: 1rem;
+    top: -4rem;
+    right:0;
+}
+
+.r-card button{
+    margin-left: 0rem;
+    margin-right: 6rem;
+}
+
+.r-buttons button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    border:none;
+    background-color: rgb(24, 101, 225);
+    cursor: pointer;
+    box-shadow: white 0px 0px 10px 0px;
+
+}
+
+.r-buttons>:nth-child(1){
+    background-color: #EEEEFF;
+}
+
+.r-buttons>:nth-child(2){
+    box-shadow:0px 0px 20px 0px rgb(79, 139, 235);
+}
+
+@media (max-width:640px){
+
+    .mainhead{
+        align-items: center;
+        font-size: 2.5rem;
+    }
+    .r-buttons{
+        margin-top: 1rem;
+        position: initial;
+    }
+    .r-price{
+        font-size: 1px;
+       
+
+    }
+}

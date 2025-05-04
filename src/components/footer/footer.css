@@ -1,0 +1,35 @@
+
+
+.fo-container{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    justify-content: space-between;
+}
+
+.fo-left{
+    gap:1rem;
+}
+
+.fo-right .primaryText{
+    color: rgb(71, 146, 231);
+}
+
+.fo-menu{
+    gap:1.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.fo-menu :hover{
+ color: orange;
+}
+
+@media(max-width:768px){
+    .fo-container{
+        justify-content: center;
+    }
+    .fo-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+}
